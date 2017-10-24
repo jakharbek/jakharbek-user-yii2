@@ -14,7 +14,7 @@
         "yiisoft/yii2": "*"
     },
     "extra": {
-        "bootstrap": "jakharbek\\jakharbek-user\\Bootstrap"
+        "bootstrap": "jakharbek\\user\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
