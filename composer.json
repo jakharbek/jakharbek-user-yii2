@@ -3,7 +3,7 @@
     "description": "jakharbek",
     "type": "yii2-extension",
     "keywords": ["yii2","user","jakharbek"],
-    "license": "GPL-2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jakharbek",
