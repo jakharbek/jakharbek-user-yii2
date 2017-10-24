@@ -13,9 +13,12 @@
     "require": {
         "yiisoft/yii2": "*"
     },
+    "extra": {
+        "bootstrap": "jakharbek\\jakharbek-user\\Bootstrap"
+    },
     "autoload": {
         "psr-4": {
-            "jakharbek\\user\\": ""
+            "jakharbek\\user\\": "src"
         }
     }
 }
