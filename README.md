@@ -47,13 +47,16 @@ You must specify where the user and administrator modules will be registered:
     ];
 
 You must specify where to enter the redirect when you log in.
+
 	public static $redirect_after_login_admin = ['/test/admin'];
 	public static $redirect_after_login = ['/test/user'];
  
  You must specify the permission to log in
+ 
 	public static $premission_admin_panel = "controlPanel";
  
  You must provide a link to the user and administrator profile
+ 
 	public static $profile_link = '/test/user/profile/';
     public static $profile_link_admin = '/test/admin/profile/';
 	
