@@ -25,7 +25,7 @@ class ProfileDeleteAction extends Action{
             $user->delete();
        }
         if (!Yii::$app->request->isAjax) {
-            $this->controller->redirect(Url::to(['/test/admin/search/']));
+            $this->controller->redirect(Url::to([Bootstrap::$search_link_admin]));
         }
     }
 }

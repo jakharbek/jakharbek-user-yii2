@@ -84,11 +84,13 @@ class Bootstrap implements BootstrapInterface{
     public static $search_pagination_page_size = 10;
     public static $search_pagination_page_size_admin = 10;
 
+    public static $search_link_admin = '/test/admin/search/';
+
     /*
      * @var имя компанента почты в yii
      */
     public static $mailer_component = "mailer";
-    public static $email_from = "";
+    public static $email_from = "j.abdulatipov@light.uz";
 
     /*
      * online manager

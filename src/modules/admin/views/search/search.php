@@ -7,9 +7,11 @@ use yii\grid\GridView;
 use \jakharbek\user\models\UserForm;
 use \jakharbek\user\models\User;
 use kartik\daterange\DateRangePicker;
+use \yii\widgets\Pjax;
 ?>
 <h1><?=Yii::t('jakhar-user','Search Users')?></h1>
 <?php
+Pjax::begin();
 echo GridView::widget([
         'dataProvider' => $adprovider,
         'filterModel' => $model,
@@ -117,4 +119,7 @@ echo GridView::widget([
                     ]
                 ],
         ],
-]);?>
+]);
+
+Pjax::end();
+?>

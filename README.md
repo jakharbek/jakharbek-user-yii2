@@ -1,6 +1,6 @@
-User Functionality
+Basic Functionality
 ===================
-User Functionality
+Basic Functionality
 
 Installation
 ------------
@@ -24,7 +24,6 @@ to the require section of your `composer.json` file.
 
 Usage
 -----
-You must migrate the database from the / migration folder
 
 Once the extension is installed, you mast configurate extension;
 To do this, you need to open the src/bootstrap.php
