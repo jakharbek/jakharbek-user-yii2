@@ -1,6 +1,6 @@
-Basic Functionality
+User Functionality
 ===================
-Basic Functionality
+User Functionality
 
 Installation
 ------------
